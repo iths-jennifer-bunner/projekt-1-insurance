@@ -1,0 +1,37 @@
+.hero{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.grey{
+    background-color: #a8A19E;
+}
+.yellow2{
+    background-color:  #f9b131;
+}
+.blue{
+    background-color: #C6DDE9;
+    background-image: url("../images/family.png");
+    background-size: 55%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+.red{
+    background-color: #f07949;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.yellow{
+    background-color: #f9b131;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
