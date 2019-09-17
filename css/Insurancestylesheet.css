@@ -1,3 +1,8 @@
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(226, 221, 219);
+}
 .hero {
     height: 100vh;
     display: grid;
@@ -6,6 +11,21 @@
 .hero p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
+}
+.button1{
+    background-color: white;
+    font-size: 12px;
+    padding: 14px 30px;
+    border-radius: 20%;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+
+}
+.button2{
+    background-color: white;
+    font-size: 12px;
+    padding: 14px 30px;
+    border-radius: 20%;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);  
 }
 .grey{
     background-color: #a8A19E;
@@ -56,9 +76,18 @@ h2{
     font-size: 40px;
     color: white; 
 }
+h1{
+    font-size: 40px;
+    color: white;  
+    }
 
 .blue h1{
     font-size: 40px;
+    
+}
+.blue p{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .grey h1{
     color: white;
@@ -75,11 +104,72 @@ ul{
 ul li{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     display: inline;
-    margin: 15px;
+    margin-left: 110px;
+    margin-right: 100px;
     text-align: center;  
+    color: #a8A19E;
+}
+.home{
+    color: black; 
 }
 .greytop{
+  height: 700px; 
+
+}
+.grey{
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    display: grid;
    
+}
+.greyleft {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+.greyright{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+.grey p{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.yellow2{
+    height: 700px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.yellow3 p{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 .blocks{
     height: 100vh;
@@ -109,7 +199,8 @@ ul li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
 .choose{
     background-color: rgb(226, 221, 219);
@@ -122,6 +213,7 @@ ul li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .questions{
@@ -134,9 +226,10 @@ ul li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
 }
-.wait{
+.wait {
     background-color: #f07949;
     text-align: center;
     grid-row-start: 2;
@@ -147,9 +240,10 @@ ul li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
-.done{
+.done {
     text-align: center;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -159,5 +253,21 @@ ul li{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+}
+.blocks{
+    margin-bottom: 0px;
+   
+}
+.scrollup{
+    background-color: rgb(216, 210, 207);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+}
+footer{
+    background-color: #a8A19E;
+    height: 200px;
+    margin: 0;
 }
