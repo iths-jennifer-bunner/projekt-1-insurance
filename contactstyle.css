@@ -1,0 +1,135 @@
+
+.hero{
+    height: 500px;
+    background-color: #C6DDE9;
+    background-image: url("./images/dad.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 25%;
+    }
+.hello{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 18vh
+    }
+.hello h1{
+    font-size: 60px;
+}    
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #a8A19E;
+}
+a{
+    text-decoration: none;
+}
+.contact{
+    color: black;
+}
+
+
+.whatson h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.form{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+.contactform{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+}
+.contactform p {
+    
+    margin: 0px;
+    color: white;
+    
+}
+
+.email{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #a8A19E;
+    
+}
+.email-ruta{
+    height: 40px;
+    /* width: 400px; */
+    background-color: white;
+}
+.button{
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.message{
+    background-color: white;
+    font-size: 12px;
+    padding: 14px 30px;
+    border-radius: 10rem;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 3px 6px 0 rgba(0,0,0,0.19);
+    height: 60px;
+    width: 110px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.message-ruta{
+    height: 200px;
+    /* width: 400px; */
+    background-color: white;
+}
+.visit{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url("./images/map.png");
+    
+}
+.visitruta{
+    height: 200px;
+    width: 350px;
+    align-items: center;
+    background-color: orange; 
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.bottom{
+    background-color: #a8A19E;
+    height: 30vh;
+}
+.visitruta p {
+    margin-left: 35px;
+    color: white;
+}
+.visitruta h2{
+    color: white;
+    font-size: 40px;
+    margin: 10px 0px 0px 35px;
+    
+}
